@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(https://www.viola-group.com/wp-content/uploads/2015/07/OMG-Fortune-header.gif);
+    background-size: cover;
+    color: white;
+}
+h1{
+    margin-left: 33%;
+    padding: 20px;
+    width: 600px;
+    position: relative;
+    height: auto;
+    font-size: 60px;
+}
+img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    margin-top: 15%;
+    margin-right: 4%;
+    margin-left: 12%;
+}
+label {
+    position: absolute; /* Add this line to make the labels absolute */
+    font-size: 30px;
+    font-weight: 700;
+    bottom: 20%;
+    margin-left: -24%;
+}
+.members {/* Add this line to make the members container relative */
+    width: 90%;
+    height: 90vh;
+    margin-left: 5%;
+    background: rgba(0, 0, 0, 0.937);
+}
+.back a{
+    position: absolute;
+    margin-top: -6%;
+    margin-left: 2%;
+}
+.arr{
+    width: 50px;
+    height: 50px;
+}
+
+.a{
+    position: absolute;
+    margin-top: 5%;
+}

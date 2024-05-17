@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://www.viola-group.com/wp-content/uploads/2015/07/OMG-Fortune-header.gif);
+    background-size: cover;
+    color: white;
+}
+
+.logo {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 85%;
+    margin-top: 5%;
+    text-shadow: 0px 0px 10px #37e3e9,
+        0px 0px 20px #30e4ea,
+        0px 0px 40px #2fe2e8,
+        0px 0px 80px #2cdee4;
+}
+
+img {
+    margin-top: 5px;
+    margin-left: -10%;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.container {
+    margin-top: -8%;
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.873);
+}
+
+a {
+    margin-left: 15%;
+    margin-top: 30%;
+    position: relative;
+    font-size: 25px;
+    display: grid;
+    justify-content: start;
+    text-decoration: none;
+    color: white;
+}
+
+.back a {
+    margin-top: 5.5%;
+    margin-left: 18.5%;
+}
+
+.row {
+    width: 50px;
+    height: 50px;
+}
+
+.prof {
+    margin-top: 59%;
+}
+
+.person {
+    padding: 2%;
+    width: 50%;
+    height: 80vh;
+    display: grid;
+    justify-content: center;
+    margin-top: 8%;
+    margin-left: 25%;
+}
+
+.picson {
+    top: 20%;
+    margin-left: 30%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.infor {
+    color: white;
+    width: 80vh;
+    height: 50vh;
+    margin-top: 20px;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px #37e3e9,
+        0px 0px 20px #30e4ea,
+        0px 0px 40px #2fe2e8,
+        0px 0px 80px #2cdee4;
+}
+
+input {
+    width: 60%;
+    height: 10%;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.548);
+}
+
+.buts{
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 50%;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+button {
+    background: rgb(227, 20, 89);
+    font-size: 28px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: rgb(229, 101, 159) 0px 30px 60px -12px inset, rgb(236, 96, 159) 0px 18px 36px -18px inset;
+    cursor: pointer;
+}
